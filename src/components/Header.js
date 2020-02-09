@@ -1,11 +1,20 @@
 import React from 'react';
 
-function Header() {
-  return (
-    <div className="navbar">
-        <p style={{color:'white'}}>Header Section</p>
-    </div>
-  );
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    return (
+      <div className="row">
+        <nav className="navbar col-12" >
+          <span className="navbar-text font-weight-bold">
+            {this.props.name}
+          </span>
+        </nav>
+      </div>
+    )
+  }
 }
 
 export default Header;

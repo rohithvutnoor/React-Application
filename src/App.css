@@ -10,15 +10,13 @@ body{
 }
 
 a{
-  color: gold;
   text-decoration: none;
 }
 
 .navbar{
-  height:60px;
   background-color: gold;
-  color: black;
-  margin-bottom: 15px;
+  color: white;
+  margin-bottom: 40px;
   text-align: center;
   font-size: 30px;
   display: flex;
@@ -37,6 +35,14 @@ a{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-span{
-  margin-left: 20px;
+.material-icons {
+  cursor: pointer;
+  padding: 10px
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
 }
